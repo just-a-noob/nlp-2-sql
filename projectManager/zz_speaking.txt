@@ -1,0 +1,37 @@
+JOIN OPERATIONS:
+get title of course where student name is Shravan
+get title of course with student whose name is Shravan
+
+
+SINGLE TABLE WHERE
+get teacher of course where title is Java 
+get title of course where Course teacher is Vijay
+
+
+
+2 ATTRIBUTES FROM SAME TABLE
+get title and teacher of course
+
+
+
+1 ATTRIBUTE FROM ONE TABLE
+display title of course 
+display student where name is Shravan 
+
+
+GREATER THAN
+get name of student where id is greater than 3
+get name of student where id is equal to 3
+get name of student where id is not equal to 3 
+get title of course where credits is greater than 4
+
+
+HAVING
+get name of student having course credits greater than 3 done
+
+LIKE
+get title of course where teacher is like Gopal
+get title of course where teacher is like Hegde
+
+
+

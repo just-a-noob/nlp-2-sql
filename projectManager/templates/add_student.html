@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Student </title>
+</head>
+<body>
+	{% if msg %} 
+	{{msg}}
+	{% endif%}
+<form action="/add_student" method="POST">
+	<label>
+		Name
+		<input type="text" name="name">
+	</label>
+	<label>
+		address
+		<input type="text" name="address">
+	</label>
+	<label>
+		phone
+		<input type="tele" name="phone">
+	</label>
+	<input type="submit" value="submit">
+</form>
+</body>
+</html>

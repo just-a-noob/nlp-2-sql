@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students</title>
+	<style type="text/css">
+		.student{
+			font-size: 30px;
+			background: #fefe22;
+			border:2px solid #2e2e2e;
+			margin:10px;
+		}
+	</style>
+</head>
+<body>
+		{% for student in students %}
+	<div class="student">
+		<p>
+	{{student[1]}}
+		</p>
+		<p>
+	{{student[2]}}
+		</p>
+		<p>
+	{{student[3]}}
+		</p>
+
+	</div>
+
+	{% endfor %}
+	
+
+</body>
+</html>
